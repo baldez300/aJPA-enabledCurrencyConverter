@@ -1,0 +1,40 @@
+/* styles.css */
+.label {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 20px;
+}
+
+.text-field {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 25px;
+}
+
+.choice-box {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 20px;
+}
+
+.button {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 25px;
+    -fx-background-color: #2980b9;
+}
+
+/* Define the style for the button when pressed */
+.button:pressed {
+    -fx-background-color: #00ff00; /* Background color when pressed */
+}
+
+/* Define a custom style for error messages with red text color */
+.error-message {
+    -fx-text-fill: red; /* Text color for error messages */
+    -fx-font-weight: bold; /* Bold font for error messages */
+}
+
+/* Define a custom style for success result output */
+.success-message {
+    -fx-text-fill: green; /* Text color for success messages */
+    -fx-font-weight: bold; /* Bold font for success messages */
+}
+
+
